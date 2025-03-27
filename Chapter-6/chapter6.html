@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrol Calculator</title>
+    <link rel="stylesheet" href="chp-6.css">
+</head>
+<body>
+    <p id="intro">Hey!! Want to Calculate Your Petrol Cost? ⛽<br> <!--Introduction for user engagement-->
+    Enter the price per liter and the amount of petrol you need. Click "Calculate" to see the total cost!</p> 
+    <!--Main container of the calculator-->
+    <div class="box">
+        <h2>Petrol Calculator</h2>
+        <!-- Input for cost per liter -->
+        <label for="price">Cost per liter:</label>
+        <input type="number" value="1.72" step="0.01" id="price">
+        <!-- Input for number of liters purchased -->
+        <label for="liters">Liters Purchased:</label>
+        <input type="number" value="0" step="0.01" id="liters">
+        <!-- Button to calculate total cost -->
+        <button onclick="calculateTotal()">Calculate</button>
+        <!-- Displaying result -->
+        <p id="total">Total Cost: $0.00</p>
+    </div>
+    <footer>
+        <p>&hearts;By Sahara Hossain&hearts;</p>
+    </footer>
+
+    <script src="chp-6.js"></script>
+</body>
+</html>

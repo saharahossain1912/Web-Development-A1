@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Quick-Reference Guide</title>
+    <link rel="stylesheet" href="bonus.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>HTML & CSS Quick-Reference Guide</h1>
+    </header>
+    <h2>HTML Tags</h2>
+    <div class="parts">
+        <h3>&lt;h1&gt;- Header-1 Tag</h3>
+        <p>Description: h1 Tag defines the most important heading in the document. It is typically used for the main title or topic by providing a clear structure and helping users understand the focus of the content on the page.</p>
+        <pre><code>&lt;h1&gt;Welcome To My Website&lt;/h1&gt;</code></pre>
+    </div>
+    <div class="parts">
+        <h3>&lt;p&gt;- Paragraph Tag</h3>
+        <p>Description: The p tag is used to define a paragraph of text. It automatically adds space before and after the text, helping to organize content into readable sections and improving the overall layout of a webpage.</p>
+        <pre><code>&lt;p&gt;My website is your go to place for all the latest updates and info. Explore our content and enjoy your stay!&lt;/p&gt;</code></pre>
+    </div>
+    <div class="parts">
+        <h3>&lt;a&gt;-Anchor(link) Tag</h3>
+        <p>Description: tag is used to define hyperlinks, allowing users to navigate from one page to another or to a specific part of the same page. It can link to external websites, other pages within the same website or even specific resources like email addresses or files</p>
+        <pre><code>&lt;a href="www.saharaswebsite.com&gt;Click here&lt;/a&gt;</code></pre>
+    </div>
+    <div class="parts">
+        <h3>&lt;img&gt;- Image Tag</h3>
+        <p>Description: img tag is used to embed images in a webpage. It requires the "src" attribute to specify the image source and the "alt" attribute to provide alternative text for accessibility. Images help convey information effectively.</p>
+        <pre><code>&lt;img src="myimage.jpg" alt="Scenary"&gt;</code></pre>
+    </div>
+    <div class="parts">
+        <h3>&lt;div&gt;- Division Tag</h3>
+        <p>Description: Div tag is a block-level element used to group content and structure a webpage. It helps organize elements for styling and layout purposes.</p>
+        <pre><code><br> &lt;div&gt; <br> &lt;h2&gt;Portfolio&lt;/h2&gt; <br> &lt;p&gt;Hello I am Sahara!&lt;/p&gt; <br>&lt;/div&gt;</code></pre>
+    </div>
+    <div class="parts">
+        <h3>&lt;ul&gt; and &lt;li&gt;- Unordered List and List Item Tags</h3>
+        <p>Description: Unorder List tag is used to create an unordered list where items are displayed with bullet points. <br> List Item Tag defines an individual item within a list, whether it’s an unordered or ordered list. It helps organize content into structured lists.</p>
+        <pre><code>&lt;ul&gt;<br> &lt;li&gt;Apples&lt;/li&gt; <br> &lt;li&gt;banana&lt;/li&gt; <br>&lt;/ul&gt;</code></pre>
+    </div>
+    <div class="parts">
+        <h3>&lt;ol&gt; and &lt;li&gt;- Ordered List and List Item Tags</h3>
+        <p>Description: The Ordered tag is used to create an ordered (numbered) list, where each item is automatically numbered. It is useful when the order of the items is important such as steps in a process or ranking items.</p>
+        <pre><code>&lt;ol&gt;<br> &lt;li&gt;First&lt;/li&gt; <br> &lt;li&gt;Second&lt;/li&gt; <br> &lt;li&gt;Third&lt;/li&gt; <br>&lt;/ol&gt;</code></pre>
+    </div>
+    <div class="parts">
+        <h3>&lt;Strong&gt;- Strong Tag</h3>
+        <p>Description: The Strong tag is used to define text with strong emphasis which is typically displayed as bold text. It is generally used for important content.</p>
+        <pre><code>&lt;p&gt;This message is very&lt;Strong&gt;Important&lt;/Strong&gt;!!&lt;/p&gt;</code></pre>
+    </div>
+    <div class="parts">
+        <h3>&lt;footer&gt;- Footer Tag</h3>
+        <p>Description: The Footer tag is used to define the footer section of a webpage or a section of content. It typically contains information like the copyright notice, contact information, privacy policy links or other relevant details that usually appear at the bottom of a page.</p>
+        <pre><code>&lt;footer&gt;&copy; By Sahara&lt;/footer&gt;</code></pre>
+    </div>
+    <div class="parts">
+        <h3>&lt;hr&gt;- Line Break</h3>
+        <p>Description: The br tag is used to insert a line break within text, making content appear on a new line. It does not have a closing tag.</p>
+        &lt;p&gt;This is the first line. &lt;br&gt; This is the second line.&lt;/p&gt;
+    </div>
+    <div class="parts">
+        <h3>&lt;hr&gt;- Horizontal Rule</h3>
+        <p>Description: The hr tag is used to create a horizontal line to separate sections of content. It helps to visually divide content on a page.</p>
+        <pre><code>&lt;h2&gt;Section 1&lt;/h2&gt;<br> &lt;p&gt;This is the first section.&lt;/p&gt; <br> &lt;hr&gt; <br> &lt;h2&gt;Section 2&lt;/h2&gt; <br> &lt;p&gt;This is the second section.&lt;/p&gt; <br></code></pre>
+    </div>
+    <h2 id="cs">CSS Properties</h2>
+    <div class="css">
+        <h3>Color</h3>
+        <p>Description: The color property is used to set the text color of an element.</p>
+        <pre><code>
+        p{
+          color: white;
+        }
+        </code></pre>
+    </div>
+    <div class="css">
+        <h3>Background Color</h3>
+        <p>Description: The background color property is used to set the background color of an element. It can apply to the entire webpage or specific elements</p>
+        <pre><code>
+        p{
+            background-color: pink;
+        }
+        </code></pre>
+    </div>
+    <div class="css">
+        <h3>Font Size</h3>
+        <p>Description: The font size property is used to define the size of text in an element using differenr units.</p>
+        <pre><code>
+        p{
+            font-size: 20px;
+        }
+        </code></pre>
+    </div>
+    <div class="css">
+        <h3>Font family</h3>
+        <p>Description: The font family property is used to specify the font of the text. You can list multiple fonts as a fallback system in case the preferred font is not available on the user's device.</p>
+        <pre><code>
+        p{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        </code></pre>
+    </div>
+    <div class="css">
+        <h3>Text Align</h3>
+        <p>Description: Aligns text horizontally within an element. Values include left, right, center and justify.</p>
+        <pre><code>
+        p{
+            text-align: center;
+        }
+        </code></pre>
+    </div>
+    <div class="css">
+        <h3>Width</h3>
+        <p>Description: Specifies the width of an element.</p>
+        <pre><code>
+        p{
+            width: 60%;
+        }
+        </code></pre>
+    </div>
+    <div class="css">
+        <h3>Height</h3>
+        <p>Description: Defines the height of an element.</p>
+        <pre><code>
+        p{
+            height: 300px;
+        }
+        </code></pre>
+    </div>
+    <div class="css">
+        <h3>Border</h3>
+        <p>Description: Sets the style, width and color of an element's border. It can be defined with values like solid, dashed, dotted along with thickness and color.</p>
+        <pre><code>
+        p{
+            border: 5px solid black;
+        }
+        </code></pre>
+    </div>
+    <div class="css">
+        <h3>Margin</h3>
+        <p>Description: Adds space outside an element by creating distance between it and other elements. It can be defined for all sides (top, right, bottom, left).</p>
+        <pre><code>
+        div{
+            margin: 15px;
+        }
+        </code></pre>
+    </div>
+    <div class="css">
+        <h3>Padding</h3>
+        <p>Description: Adds space inside an element, i.e, between its content and border. It can be set for all sides (top, right, bottom, left).</p>
+        <pre><code>
+        div{
+            padding: 20px;
+        }
+        </code></pre>
+    </div>
+    <footer>
+        <p>&copy; By Sahara Hossain</p>
+    </footer>
+</body>
+</html>

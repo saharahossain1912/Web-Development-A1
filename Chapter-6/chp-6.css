@@ -1,0 +1,57 @@
+/* Styling the body to set the content in center, with background color and padding */
+body{
+    padding: 40px;
+    text-align: center;
+    background-color: #979fad;
+}
+/* Adding styles to the calculator box */
+.box{
+    background-color: #e0e1dd;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 3px #1b263b solid;
+    border-radius: 10px;
+    box-shadow: 3px 5px 10px #1b263b;
+    font-size: 18px;
+    color: #0e182b;
+}
+/* Input field styling */
+input{
+    width: 300px;
+    margin: 10px 0;
+    padding: 7px 0 6px 7px;
+    border: 1px #1b263b solid;
+    border-radius: 4px;
+}
+/* Styling to keep the Input field focused when in use */
+input:focus{
+    border: 2px #1b263b solid;
+}
+/* Heading styling*/
+h2{
+    margin-top: 0;
+}
+/* Adding styles to calculator button */
+button{
+    padding: 8px;
+    width: 120px;
+    background-color: #353f53;
+    color: white;
+    font-size: 16px;
+}
+/* Including hover effects to the button */
+button:hover{
+    background-color: #0f1522;
+    color: #eff6e0;
+}
+/* Styling for total cost display */
+#total{
+    font-size: 20px;
+    font-weight: bold;
+}
+#intro{
+    color: white;
+    font-size: 19px;
+    text-shadow: 1px 4px 10px #1b263b;
+}
